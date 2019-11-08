@@ -1,0 +1,24 @@
+clear
+echo 1 ; echo 2 ; echo 3
+
+echo 4 && echo 5 && echo 6
+
+ 
+echo hello ;;; echo false ;;; echo there
+echo 4 &&&& echo false &&&& echo here
+&& echo true
+; echo true
+ && echo true
+ ; echo true
+ 
+echo 5 ; echo Inside file.txt hello > file.txt ; cat file.txt
+echo 6 ; eco hello > file1.txt && cat file1.txt
+echo Outside myoutput ; echo Inside myoutput hello > myoutput && wc -l < myoutput
+echo long ; echo hello > file_1 > file_2 > file_3 ; echo instruction
+echo long && wc -l < file_1 < file_2 < file_3 && echo instruction
+wc -l < file_3 > file_4
+echo 7 ; eco t ; echo r && echo u ; echo e && echo f ; echo a
+echo 8 ; help
+echo 9 ; mkdir test ; cd test 
+quit
+
