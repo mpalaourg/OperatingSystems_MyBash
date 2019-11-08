@@ -1,5 +1,5 @@
 # Operating Systems Final Assignment, AUTh [2018]
-> <TODO> .
+> Create my own version of linux Batch Shell.
 
 <p align="justify">
 This is an <i>experimental</i> application developed as part of the course "Operating Systems" assignment, that took place in the Department of Electrical & Computer Engineering at Aristotle University of Thessaloniki in 2018.
@@ -15,8 +15,8 @@ The goal is to create my version of linux Bash Shell. Where,
 <li> <b> Redirection with < handle. </b>
 <li> Two modes supported:
   <ul>
-        <li> <b> Interactive</b>, when no arguments were given. </li>
-        <li> <b> Batch</b>, when 1 (one) argument (file) was given. </li>
+        <li> <b> Interactive</b>, when no arguments are given. </li>
+        <li> <b> Batch</b>, when 1 (one) argument (file) is given. </li>
   </ul>
 </ul>
 <b>Makefile supports</b>: 
@@ -62,21 +62,15 @@ The goal is to create my version of linux Bash Shell. Where,
 ---
 
 ## Execution
-<TODO>
-To execute the code, you first need to cross compile it (for Raspberry Pi) using:
+To execute the code, you first need to compile it using:
 ```sh
 make all
 ```
-secure copy it: 
-```sh
-sudo scp MessengerApp @username@tohost:/remote/directory
-(i.e. sudo scp MessengerApp root@192.168.0.1:~ for root user and random ip)
-```
 and then run using:
 ```sh
-./MessengerApp
+./myshell [batchfile]
 ```
-<TODO>
+where the parameter is optional.
 
 ---
 
